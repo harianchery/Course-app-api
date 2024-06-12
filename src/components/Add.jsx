@@ -64,7 +64,7 @@ const Add = () => {
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">Date</label>
-                            <input type="text" className="form-control" name='date' value={course.date} onChange={InputHandler}/>
+                            <input type="date" className="form-control" name='date' value={course.date} onChange={InputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">Duration</label>
